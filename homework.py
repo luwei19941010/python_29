@@ -10,6 +10,8 @@
 # 3.再server端用上反射
 import os
 
-path = input('file path:')
-file_name = os.path.basename(path)
-print(file_name)
+path=os.listdir(r'C:\Users\davidlu\PycharmProjects\luwei-Knightsplan\day29\file')
+print(path)
+path1=os.path.getsize(r'C:\Users\davidlu\PycharmProjects\luwei-Knightsplan\day29\file\12.mp4')
+path2=os.path.getsize(r'C:\Users\davidlu\PycharmProjects\luwei-Knightsplan\day29\12.mp4')
+print(path1,path2)
